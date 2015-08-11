@@ -18,14 +18,14 @@
             <div class="row">
                 <div class="col-md-1">{{day}}</div>
                 <div class="col-md-2">
-                    <a href="https://github.com/IATI/{{ milestone.repo }}" class="badge">
+                    <a href="https://github.com/OpenDataServices/{{ milestone.repo }}" class="badge">
                         {{ milestone.repo }}
                     </a>
                 </div>
                 <div class="col-md-1">{{ milestone.open_issues }}</div>
                 <div class="col-md-1">{{ milestone.closed_issues }}/{{ milestone.open_issues + milestone.closed_issues }}</div>
                 <div class="col-md-7">
-                    <a href="https://github.com/IATI/{{ milestone.repo }}/issues?milestone={{ milestone.number }}&state=open">
+                    <a href="https://github.com/OpenDataServices/{{ milestone.repo }}/issues?milestone={{ milestone.number }}&state=open">
                         {{ milestone.title }}
                     </a>
                 </div>
@@ -47,14 +47,14 @@
             <div class="row">
                 <div class="col-md-1">??</div>
                 <div class="col-md-2">
-                    <a href="https://github.com/IATI/{{ milestone.repo }}" class="badge">
+                    <a href="https://github.com/OpenDataServices/{{ milestone.repo }}" class="badge">
                         {{ milestone.repo }}
                     </a>
                 </div>
                 <div class="col-md-1">{{ milestone.open_issues }}</div>
                 <div class="col-md-1">{{ milestone.closed_issues }}/{{ milestone.open_issues + milestone.closed_issues }}</div>
                 <div class="col-md-7">
-                    <a href="https://github.com/IATI/{{ milestone.repo }}/issues?milestone={{ milestone.number }}&state=open">
+                    <a href="https://github.com/OpenDataServices/{{ milestone.repo }}/issues?milestone={{ milestone.number }}&state=open">
                         {{ milestone.title }}
                     </a>
                 </div>
@@ -73,14 +73,14 @@
             <div class="row">
                 <div class="col-md-1">??</div>
                 <div class="col-md-2">
-                    <a href="https://github.com/IATI/{{ repo }}" class="badge">
+                    <a href="https://github.com/OpenDataServices/{{ repo }}" class="badge">
                         {{ repo }}
                     </a>
                 </div>
                 <div class="col-md-1">{{ issues }}</div>
                 <div class="col-md-1"></div>
                 <div class="col-md-7">
-                    <a href="https://github.com/IATI/{{ repo }}/issues?q=is%3Aopen+no%3Amilestone">
+                    <a href="https://github.com/OpenDataServices/{{ repo }}/issues?q=is%3Aopen+no%3Amilestone">
                         No Milestone
                     </a>
                 </div>
@@ -91,7 +91,7 @@
 {% for repo in sorted(no_open_issues) %}
             <div class="row">
                 <div class="col-md-2">
-                    <a href="https://github.com/IATI/{{ repo }}" class="badge">
+                    <a href="https://github.com/OpenDataServices/{{ repo }}" class="badge">
                         {{ repo }}
                     </a>
                 </div>

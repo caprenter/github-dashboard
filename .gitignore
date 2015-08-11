@@ -1,8 +1,7 @@
 *.pyc
 *.swp
 
-pyenv
-stats-calculated*
+.ve
 data
 out
 config.py
