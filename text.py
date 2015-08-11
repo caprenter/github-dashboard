@@ -2,8 +2,9 @@ import copy
 
 top_titles = {
     'index': 'Home',
-    'github': 'GitHub'
-
+    'github': 'GitHub',
+    'milestones': 'Milestones(Open)',
+    'milestones-completed': 'Milestones(Completed)'
 }
 
 page_titles = {
@@ -34,11 +35,13 @@ short_page_titles.update({
     'milestones-completed' : 'Completed Milestones',
 })
 
-top_navigation = ['index', 
+top_navigation = [
                   #'headlines', 
                   #'data_quality', 
                   #'exploring_data', 
                   'github', 
+                  'milestones',
+                  'milestones-completed',
                   #'publishing_stats', 
                   #'faq'
                   ]
@@ -46,6 +49,5 @@ navigation = {
     #'headlines': [ 'publishers', 'files', 'activities'],
     #'data_quality': ['download', 'xml', 'validation', 'versions', 'licenses', 'organisation', 'identifiers', 'reporting_orgs'],
     #'exploring_data': ['elements', 'codelists', 'booleans', 'dates'],
-    'github': ['github', 'milestones', 'milestones-completed'],
     #'publishing_stats': ['timeliness', 'forwardlooking']#, 'comprehensiveness'] #, 'coverage' ]
 }
